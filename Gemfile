@@ -21,5 +21,9 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
+group :production do
+  gem 'pg', '0.20.0'
+end
+
 # WindowsŠÂ‹«‚Å‚Ítzinfo-data‚Æ‚¢‚¤gem‚ðŠÜ‚ß‚é•K—v‚ª‚ ‚è‚Ü‚·
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
